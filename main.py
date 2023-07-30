@@ -4,7 +4,7 @@ from random import randint
 class Node:
 
     MARKS = ["X","0"]
-
+    
     def __init__(self,board,current_mark,computer_mark):
         self.score = 0
         self.board = board
